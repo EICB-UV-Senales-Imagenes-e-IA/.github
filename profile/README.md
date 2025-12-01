@@ -13,14 +13,15 @@ Este enfoque establece un marco metodológico común para el área de Señales, 
 
 ---
 
-## Posters, abstracts de conferencias, u otras publucaciones recientes 📝:
+## Posters, abstracts de conferencias, u otras publicaciones recientes 📝:
 
-| Título | Tipo | DOI |
-|-------|------|-----|
-| Predicción de la ganancia de peso gestacional mediante un modelo lineal mixto multinivel: desarrollo de la aplicación MaternIA (2025) | (LACSC 2025), Valparaíso, Chile | In Press |
-| Unsupervised Dual-Task W-Net for Intracranial Hemorrhage Detection and Segmentation in Non-Contrast CT (2025) | (ICPRS 2025) | In Press |
-| Visual Explainability of Attention U-Net for Brain Tumor Segmentation in Multicontrast Magnetic Resonance Images (2025) | (SIPAIM 2025), Pasto, Colombia | In Press |
-| Performance comparison of supervised and unsupervised deep learning models for ischemic lesion detection in stroke non-contrast CT images (2025) | (SIPAIM 2025), Pasto, Colombia | In Press |
+| Título (con presentador) | Conferencia | DOI |
+|--------------------------|------|-----|
+| **_C. Osorio_** — Predicción de la ganancia de peso gestacional mediante un modelo lineal mixto multinivel: desarrollo de la aplicación MaternIA (2025) | LACSC 2025, Valparaíso, Chile | In press |
+| **_F. Estay_** — Unsupervised Dual-Task W-Net for Intracranial Hemorrhage Detection and Segmentation in Non-Contrast CT (2025) | ICPRS 2025 | In press |
+| **_G. Guerra_** — Visual Explainability of Attention U-Net for Brain Tumor Segmentation in Multicontrast Magnetic Resonance Images (2025) | SIPAIM 2025, Pasto, Colombia | In press |
+| **_C. Rodríguez_** — Performance comparison of supervised and unsupervised deep learning models for ischemic lesion detection in stroke non-contrast CT images (2025) | SIPAIM 2025, Pasto, Colombia | In press |
+| **_A. A. Sanllehi_** — Modelo predictivo de fallas en monitores multiparamétricos basado en machine learning para apoyar la gestión del mantenimiento | SINVIE 2025, Arica, Chile | - |
 
 ## 🗂️ Estructura general de los repositorios
 
@@ -50,9 +51,9 @@ Este espacio está destinado a estudiantes de pregrado y posgrado, ayudantes, in
 
 ## 📬 Contacto del área
 
-**Coordinación del Área SIA — Escuela de Ingeniería Civil Biomédica**  
+**Coordinación del Área SIIA — Escuela de Ingeniería Civil Biomédica - UV**  
 Universidad de Valparaíso  
-✉️ *[david.ortiz@uv.cl]*  
+✉️ *david.ortiz@uv.cl*  
 🌐 https://www.biomedica.uv.cl/
 
 ---
