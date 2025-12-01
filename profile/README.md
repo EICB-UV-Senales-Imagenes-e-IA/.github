@@ -13,6 +13,15 @@ Este enfoque establece un marco metodológico común para el área de Señales, 
 
 ---
 
+## Posters, abstracts de conferencias, u otras publucaciones recientes 📝:
+
+| Título | Tipo | DOI |
+|-------|------|-----|
+| Predicción de la ganancia de peso gestacional mediante un modelo lineal mixto multinivel: desarrollo de la aplicación MaternIA (2025) | (LACSC 2025), Valparaíso, Chile | In Press |
+| Unsupervised Dual-Task W-Net for Intracranial Hemorrhage Detection and Segmentation in Non-Contrast CT (2025) | (ICPRS 2025) | In Press |
+| Visual Explainability of Attention U-Net for Brain Tumor Segmentation in Multicontrast Magnetic Resonance Images (2025) | (SIPAIM 2025), Pasto, Colombia | In Press |
+| Performance comparison of supervised and unsupervised deep learning models for ischemic lesion detection in stroke non-contrast CT images (2025) | (SIPAIM 2025), Pasto, Colombia | In Press |
+
 ## 🗂️ Estructura general de los repositorios
 
 Los repositorios dentro de SmartBioMed-EICB-UV pueden corresponder a:
