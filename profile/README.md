@@ -15,7 +15,7 @@ Este enfoque establece un marco metodológico común para el área de Señales, 
 
 ## Posters, abstracts de conferencias, u otras publicaciones recientes 📝:
 
-| Título (con presentador) | Conferencia | DOI |
+| Título (con presentador) | Conferencia/Journal | DOI |
 |--------------------------|------|-----|
 | **_C. Osorio_** — Predicción de la ganancia de peso gestacional mediante un modelo lineal mixto multinivel: desarrollo de la aplicación MaternIA (2025) | LACSC 2025, Valparaíso, Chile | In press |
 | **_F. Estay_** — Unsupervised Dual-Task W-Net for Intracranial Hemorrhage Detection and Segmentation in Non-Contrast CT (2025) | ICPRS 2025 | In press |
