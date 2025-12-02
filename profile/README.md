@@ -12,17 +12,6 @@ SmartBioMed es un marco conceptual que integra modelos matemáticos y computacio
 Este enfoque establece un marco metodológico común para el área de Señales, Imágenes e Inteligencia Artificial, articulando procesamiento de señales, análisis de imágenes y modelamiento computacional. SmartBioMed integra estas líneas en una base formativa y de investigación que permite abordar problemas biomédicos mediante métodos cuantitativos y modelos basados en datos, manteniendo coherencia con las capacidades actuales del área y proyectando un desarrollo académico y tecnológico sólido.
 
 ---
-
-## Posters, abstracts de conferencias, u otras publicaciones recientes 📝:
-
-| Título (con presentador) | Conferencia/Journal | DOI |
-|--------------------------|------|-----|
-| **_C. Osorio_** — Predicción de la ganancia de peso gestacional mediante un modelo lineal mixto multinivel: desarrollo de la aplicación MaternIA (2025) | LACSC 2025, Valparaíso, Chile | In press |
-| **_F. Estay_** — Unsupervised Dual-Task W-Net for Intracranial Hemorrhage Detection and Segmentation in Non-Contrast CT (2025) | ICPRS 2025 | In press |
-| **_G. Guerra_** — Visual Explainability of Attention U-Net for Brain Tumor Segmentation in Multicontrast Magnetic Resonance Images (2025) | SIPAIM 2025, Pasto, Colombia | In press |
-| **_C. Rodríguez_** — Performance comparison of supervised and unsupervised deep learning models for ischemic lesion detection in stroke non-contrast CT images (2025) | SIPAIM 2025, Pasto, Colombia | In press |
-| **_A. A. Sanllehi_** — Modelo predictivo de fallas en monitores multiparamétricos basado en machine learning para apoyar la gestión del mantenimiento | SINVIE 2025, Arica, Chile | - |
-
 ## 🗂️ Estructura general de los repositorios
 
 Los repositorios dentro de SmartBioMed-EICB-UV pueden corresponder a:
@@ -40,6 +29,39 @@ Cada repositorio debe incluir:
 - Dependencias o instrucciones de instalación.
 - Resultados, figuras o documentación relevante.
 - Información sobre licencia y uso (si aplica).
+
+
+## Proyectos de Ingeniería Biomédica, SIIA:
+
+### 2025-02
+| Título (con presentador) | Profesor Guía| Repositorio |
+|--------------------------|------|-----|
+
+### 2025-01
+| Título (con presentador) | Profesor Guía| Repositorio |
+|--------------------------|------|-----|
+| **_A. Muñoz_** — Sistema Semi-automático para la Segmentación y Medición de Espinas Dendríticas | **A. Veloz** | (Link)[https://github.com/EICB-UV-Senales-Imagenes-e-IA/Analisis-Espinas-Dendr-ticas]
+| **_C. Osorio_** — MaternIA: Calculadora Inteligente de la Ganancia de Peso en el Embarazo | **R. Salas** |  |
+| **_F. Estay_** — Red W-NET de doble tarea no supervisada para la detección y segmentación de hemorragias intracraneales en TC sin contraste | **R. Salas** |  |
+| **_A. Argandoña_** — SEGMENTACIÓN DE VÍAS AÉREAS PULMONARES BASADO EN MACHINE LEARNING | **D. Ortiz** |  |
+| **_B. Madrid_** — Estimación no invasiva de presión arterial utilizando Fotopletismografía, Electrocardiograma y Redes Neuronales Informadas por la física| **D. Ortiz** |  |
+| **_C. Rodríguez_** — Detección y segmentación automática de lesiones isquémicas enimágenes de tomografía computarizada sin contraste de pacientes con accidente cerebrovascular en base a modelos de Deep Learning | **D. Ortiz** |  |
+| **_A. Sanllehi_** — Modelo predictivo de fallas en monitores multiparamétricos basado en machine learning para apoyar la gestión del mantenimiento | **R. Salas** | - |
+| **_J. Mendoza_** —  | **A. Veloz** | - |
+| **_E. Astargo_** —  | **R. Salas** | - |
+
+
+## Posters, abstracts de conferencias, u otras publicaciones recientes 📝:
+
+| Título (con presentador) | Conferencia/Journal | DOI |
+|--------------------------|------|-----|
+| **_C. Osorio_** — Predicción de la ganancia de peso gestacional mediante un modelo lineal mixto multinivel: desarrollo de la aplicación MaternIA (2025) | LACSC 2025, Valparaíso, Chile | In press |
+| **_F. Estay_** — Unsupervised Dual-Task W-Net for Intracranial Hemorrhage Detection and Segmentation in Non-Contrast CT (2025) | ICPRS 2025 | In press |
+| **_G. Guerra_** — Visual Explainability of Attention U-Net for Brain Tumor Segmentation in Multicontrast Magnetic Resonance Images (2025) | SIPAIM 2025, Pasto, Colombia | In press |
+| **_C. Rodríguez_** — Performance comparison of supervised and unsupervised deep learning models for ischemic lesion detection in stroke non-contrast CT images (2025) | SIPAIM 2025, Pasto, Colombia | In press |
+| **_A. A. Sanllehi_** — Modelo predictivo de fallas en monitores multiparamétricos basado en machine learning para apoyar la gestión del mantenimiento | SINVIE 2025, Arica, Chile | - |
+
+
 
 ---
 
