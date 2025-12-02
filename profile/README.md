@@ -40,12 +40,12 @@ Cada repositorio debe incluir:
 ### 2025-01
 | Título (con presentador) | Profesor Guía| Repositorio |
 |--------------------------|------|-----|
-| **_A. Muñoz_** — Sistema Semi-automático para la Segmentación y Medición de Espinas Dendríticas | **A. Veloz** | (Link)[https://github.com/EICB-UV-Senales-Imagenes-e-IA/Analisis-Espinas-Dendr-ticas]
-| **_C. Osorio_** — MaternIA: Calculadora Inteligente de la Ganancia de Peso en el Embarazo | **R. Salas** |  |
-| **_F. Estay_** — Red W-NET de doble tarea no supervisada para la detección y segmentación de hemorragias intracraneales en TC sin contraste | **R. Salas** |  |
-| **_A. Argandoña_** — SEGMENTACIÓN DE VÍAS AÉREAS PULMONARES BASADO EN MACHINE LEARNING | **D. Ortiz** |  |
-| **_B. Madrid_** — Estimación no invasiva de presión arterial utilizando Fotopletismografía, Electrocardiograma y Redes Neuronales Informadas por la física| **D. Ortiz** |  |
-| **_C. Rodríguez_** — Detección y segmentación automática de lesiones isquémicas enimágenes de tomografía computarizada sin contraste de pacientes con accidente cerebrovascular en base a modelos de Deep Learning | **D. Ortiz** |  |
+| **_A. Muñoz_** — Sistema Semi-automático para la Segmentación y Medición de Espinas Dendríticas | **A. Veloz** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/Analisis-Espinas-Dendr-ticas)
+| **_C. Osorio_** — MaternIA: Calculadora Inteligente de la Ganancia de Peso en el Embarazo | **R. Salas** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/Calculadora-GPG) |
+| **_F. Estay_** — Red W-NET de doble tarea no supervisada para la detección y segmentación de hemorragias intracraneales en TC sin contraste | **R. Salas** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/WNet-Attention-ICH)|
+| **_A. Argandoña_** — SEGMENTACIÓN DE VÍAS AÉREAS PULMONARES BASADO EN MACHINE LEARNING | **D. Ortiz** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/Airways-PIB)|
+| **_B. Madrid_** — Estimación no invasiva de presión arterial utilizando Fotopletismografía, Electrocardiograma y Redes Neuronales Informadas por la física| **D. Ortiz** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/PINN-estimacion-no-invasiva-presion-arterial-con-PPG-ECG)|
+| **_C. Rodríguez_** — Detección y segmentación automática de lesiones isquémicas en imágenes de tomografía computarizada sin contraste de pacientes con accidente cerebrovascular en base a modelos de Deep Learning | **D. Ortiz** |  |
 | **_A. Sanllehi_** — Modelo predictivo de fallas en monitores multiparamétricos basado en machine learning para apoyar la gestión del mantenimiento | **R. Salas** | - |
 | **_J. Mendoza_** —  | **A. Veloz** | - |
 | **_E. Astargo_** —  | **R. Salas** | - |
