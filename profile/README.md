@@ -47,7 +47,7 @@ Cada repositorio debe incluir:
 | **_B. Madrid_** — Estimación no invasiva de presión arterial utilizando Fotopletismografía, Electrocardiograma y Redes Neuronales Informadas por la física| **D. Ortiz** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/PINN-estimacion-no-invasiva-presion-arterial-con-PPG-ECG)|
 | **_C. Rodríguez_** — Detección y segmentación automática de lesiones isquémicas en imágenes de tomografía computarizada sin contraste de pacientes con accidente cerebrovascular en base a modelos de Deep Learning | **D. Ortiz** |  |
 | **_A. Sanllehi_** — Modelo predictivo de fallas en monitores multiparamétricos basado en machine learning para apoyar la gestión del mantenimiento | **R. Salas** | - |
-| **_J. Mendoza_** —  | **A. Veloz** | - |
+| **_J. Mendoza_** —  Extractor Jerárquico de Características de Embeddings Multidimensionales Usando GMM y k-NN para la Clasificación de Tumores Cerebrales| **A. Veloz** | [repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/Hierarchical-Enrichment-using-kNN-and-GMM) |
 | **_E. Astargo_** — Sistema Explicable basado en Attention U-Net 3D y Modelos Neuro-Difusos para la Segmentación de Tumores Cerebrales en Imágenes de Resonancia Magnética  | **R. Salas** | - |
 
 
