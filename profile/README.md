@@ -48,7 +48,7 @@ Cada repositorio debe incluir:
 | **_C. Rodríguez_** — Detección y segmentación automática de lesiones isquémicas en imágenes de tomografía computarizada sin contraste de pacientes con accidente cerebrovascular en base a modelos de Deep Learning | **D. Ortiz** |  |
 | **_A. Sanllehi_** — Modelo predictivo de fallas en monitores multiparamétricos basado en machine learning para apoyar la gestión del mantenimiento | **R. Salas** | - |
 | **_J. Mendoza_** —  | **A. Veloz** | - |
-| **_E. Astargo_** —  | **R. Salas** | - |
+| **_E. Astargo_** — Sistema Explicable basado en Attention U-Net 3D y Modelos Neuro-Difusos para la Segmentación de Tumores Cerebrales en Imágenes de Resonancia Magnética  | **R. Salas** | - |
 
 
 ## Posters, abstracts de conferencias, u otras publicaciones recientes 📝:
