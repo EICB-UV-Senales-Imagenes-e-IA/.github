@@ -33,9 +33,14 @@ Cada repositorio debe incluir:
 
 ## Proyectos de Ingeniería Biomédica, SIIA:
 
+### 2026-01
+| Título (con presentador) | Profesor Guía| Repositorio |
+|--------------------------|------|-----|
+
 ### 2025-02
 | Título (con presentador) | Profesor Guía| Repositorio |
 |--------------------------|------|-----|
+| **_F. Alarcón_** - SMARTBIOMED: SEGMENTACIÓN DE VÍAS AÉREAS BASADA EN MACHINE LEARNING | **D. Ortiz** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/SMARTBIOMED-SEGMENTACI-N-DE-V-AS-A-REAS-BASADA-EN-MACHINE-LEARNING)
 
 ### 2025-01
 | Título (con presentador) | Profesor Guía| Repositorio |
