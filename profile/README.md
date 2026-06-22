@@ -13,18 +13,25 @@ Este enfoque establece un marco metodológico común para el área de Señales, 
 
 ## 🗂️ Estructura general de los repositorios
 
-Cada repositorio debe incluir:
+Cada repositorio debe incluir un `README.md` principal que describa el proyecto, sus objetivos, instrucciones de instalación y uso, y un ejemplo mínimo de ejecución (entrada → ejecución → salida esperada) o una referencia al notebook correspondiente. El README debe indicar también la versión de Python utilizada y las dependencias principales; si el proyecto se ejecuta en Colab/Kaggle, mencionarlo explícitamente e incluir una celda inicial con `!pip install paquete==version` para las librerías no preinstaladas.
 
-- Un `README.md` principal con descripción del proyecto, objetivos, instrucciones de uso y ejemplo mínimo de ejecución.
-- Código organizado en carpetas (ver estructura sugerida más abajo).
-- **Listado obligatorio de dependencias con versiones**, en `requirements.txt`, `environment.yml` o equivalente. Si el proyecto se ejecuta en Colab/Kaggle, el notebook debe incluir además una celda inicial con `!pip install paquete==version` para las librerías no preinstaladas.
-- Al menos un notebook con un **ejemplo funcional reproducible** (entrada → ejecución → salida esperada).
-- Resultados, figuras o documentación relevante en `results/`.
-- Información sobre licencia y uso (si aplica).
+- [ ] Descripción del proyecto y objetivos.
+- [ ] Instrucciones de instalación y uso.
+- [ ] Ejemplo mínimo de ejecución (entrada → ejecución → salida esperada), o referencia al notebook correspondiente en `notebooks/`.
+- [ ] Indicación de dependencias principales y versión de Python utilizada. Si el proyecto se ejecuta en Colab/Kaggle, mencionarlo explícitamente e incluir una celda inicial con `!pip install paquete==version` en el notebook para las librerías no preinstaladas.
+- [ ] Información sobre licencia y uso (si aplica).
+
+Además del README, el repositorio debe contener:
+
+- Código organizado en carpetas (ver estructura sugerida).
+- Archivo de dependencias con versiones (`requirements.txt`, `environment.yml` o equivalente). **Obligatorio.**
+- Al menos un notebook con un ejemplo funcional reproducible en `notebooks/`.
+- Carpeta `results/` con figuras, métricas o salidas relevantes.
+- Archivo `LICENSE`, si aplica.
 
 ### 📁 Estructura sugerida de proyecto
 
-Recomendada especialmente para proyectos de análisis de datos, señales, imágenes o aprendizaje automático:
+Recomendada para proyectos de análisis de datos, señales, imágenes o aprendizaje automático:
 
 ```
 mi-proyecto/
@@ -42,24 +49,11 @@ No es obligatoria, pero sí recomendada. Como mínimo se espera `src/` (o equiva
 
 ### 📦 Gestión de datos
 
-Los datos clínicos o sensibles **no deben subirse al repositorio**. La carpeta `data/` debe contener un `README.md` propio con:
-
-- **Origen de los datos:** institución, dataset público, link de descarga o DOI.
-- **Licencia y permisos de uso:** condiciones de la fuente original; si requiere registro o solicitud formal, indicarlo.
-- **Instrucciones de descarga:** comandos o pasos para obtener los datos. Si la descarga es manual, indicar la ruta esperada dentro de `data/`.
-- **Versión o fecha de descarga**, cuando aplique (datasets que se actualizan, ej. TCIA).
-- **Anonimización:** si se trabaja con datos clínicos propios, documentar el procedimiento de anonimización aplicado (script en `src/` si corresponde).
-- **Datos de ejemplo:** si es posible, incluir una muestra mínima sintética o anonimizada que permita ejecutar el notebook de ejemplo sin acceso al dataset completo.
+Los datos clínicos o sensibles **no deben subirse al repositorio**. La carpeta `data/` debe contener un `README.md` propio que documente el origen de los datos (institución, dataset público, link o DOI), su licencia y permisos de uso, e instrucciones de descarga (incluyendo la ruta esperada dentro de `data/` si la descarga es manual). Cuando aplique, indicar la versión o fecha de descarga del dataset. Si se trabaja con datos clínicos propios, documentar el procedimiento de anonimización aplicado (con script en `src/` si corresponde). Se recomienda incluir una muestra mínima sintética o anonimizada que permita ejecutar el notebook de ejemplo sin acceso al dataset completo.
 
 ### 🔁 Reproducibilidad
 
-Para que el trabajo sea reproducible por otros estudiantes:
-
-- **Fijar semillas aleatorias** (`numpy`, `random`, `torch`, etc.) al inicio del notebook o script principal.
-- **Evitar rutas absolutas.** Usar rutas relativas al repositorio o definirlas en `config/`.
-- **Documentar el preprocesamiento** en el notebook o en `src/`, no solo el modelo final.
-- **Versión del entorno:** indicar versión de Python y, si aplica, de CUDA/GPU usada.
-- **Resultados esperables:** en el notebook de ejemplo, incluir las salidas (figuras, métricas) ya ejecutadas, para que un lector pueda comparar sin re-ejecutar todo.
+Para que el trabajo sea reproducible por otros estudiantes: fijar semillas aleatorias (`numpy`, `random`, `torch`, etc.) al inicio del notebook o script principal; evitar rutas absolutas, usando rutas relativas o definidas en `config/`; documentar el preprocesamiento, no solo el modelo final; indicar la versión de Python y, si aplica, de CUDA/GPU; y dejar las salidas (figuras, métricas) ya ejecutadas en el notebook de ejemplo, para que un lector pueda comparar sin re-ejecutar todo.
 
 
 ## Proyectos de Ingeniería Biomédica, SIIA:
