@@ -11,24 +11,55 @@ SmartBioMed es un marco conceptual que integra modelos matemáticos y computacio
 
 Este enfoque establece un marco metodológico común para el área de Señales, Imágenes e Inteligencia Artificial, articulando procesamiento de señales, análisis de imágenes y modelamiento computacional. SmartBioMed integra estas líneas en una base formativa y de investigación que permite abordar problemas biomédicos mediante métodos cuantitativos y modelos basados en datos, manteniendo coherencia con las capacidades actuales del área y proyectando un desarrollo académico y tecnológico sólido.
 
----
 ## 🗂️ Estructura general de los repositorios
-
-Los repositorios dentro de SmartBioMed-EICB-UV pueden corresponder a:
-
-- Cursos del área (señales, imágenes, IA, etc.).
-- Laboratorios y talleres prácticos.
-- Proyectos de investigación y trabajos finales.
-- Recursos docentes desarrollados por profesores y estudiantes.
-- Herramientas o librerías creadas para apoyar asignaturas o proyectos.
 
 Cada repositorio debe incluir:
 
-- Un `README.md` con una descripción clara del contenido.
-- Código organizado en carpetas.
-- Dependencias o instrucciones de instalación.
-- Resultados, figuras o documentación relevante.
+- Un `README.md` principal con descripción del proyecto, objetivos, instrucciones de uso y ejemplo mínimo de ejecución.
+- Código organizado en carpetas (ver estructura sugerida más abajo).
+- **Listado obligatorio de dependencias con versiones**, en `requirements.txt`, `environment.yml` o equivalente. Si el proyecto se ejecuta en Colab/Kaggle, el notebook debe incluir además una celda inicial con `!pip install paquete==version` para las librerías no preinstaladas.
+- Al menos un notebook con un **ejemplo funcional reproducible** (entrada → ejecución → salida esperada).
+- Resultados, figuras o documentación relevante en `results/`.
 - Información sobre licencia y uso (si aplica).
+
+### 📁 Estructura sugerida de proyecto
+
+Recomendada especialmente para proyectos de análisis de datos, señales, imágenes o aprendizaje automático:
+
+```
+mi-proyecto/
+├── config/         # Archivos de configuración (parámetros, hiperparámetros, rutas, semillas)
+├── data/           # Datos (ver sección "Gestión de datos")
+├── notebooks/      # Notebooks con ejemplos funcionales y exploración
+├── results/        # Resultados, figuras y outputs generados
+├── src/            # Código fuente (módulos, funciones, clases)
+├── test/           # Pruebas unitarias o de integración
+├── requirements.txt  # (o environment.yml)
+└── README.md
+```
+
+No es obligatoria, pero sí recomendada. Como mínimo se espera `src/` (o equivalente) y `notebooks/`.
+
+### 📦 Gestión de datos
+
+Los datos clínicos o sensibles **no deben subirse al repositorio**. La carpeta `data/` debe contener un `README.md` propio con:
+
+- **Origen de los datos:** institución, dataset público, link de descarga o DOI.
+- **Licencia y permisos de uso:** condiciones de la fuente original; si requiere registro o solicitud formal, indicarlo.
+- **Instrucciones de descarga:** comandos o pasos para obtener los datos. Si la descarga es manual, indicar la ruta esperada dentro de `data/`.
+- **Versión o fecha de descarga**, cuando aplique (datasets que se actualizan, ej. TCIA).
+- **Anonimización:** si se trabaja con datos clínicos propios, documentar el procedimiento de anonimización aplicado (script en `src/` si corresponde).
+- **Datos de ejemplo:** si es posible, incluir una muestra mínima sintética o anonimizada que permita ejecutar el notebook de ejemplo sin acceso al dataset completo.
+
+### 🔁 Reproducibilidad
+
+Para que el trabajo sea reproducible por otros estudiantes:
+
+- **Fijar semillas aleatorias** (`numpy`, `random`, `torch`, etc.) al inicio del notebook o script principal.
+- **Evitar rutas absolutas.** Usar rutas relativas al repositorio o definirlas en `config/`.
+- **Documentar el preprocesamiento** en el notebook o en `src/`, no solo el modelo final.
+- **Versión del entorno:** indicar versión de Python y, si aplica, de CUDA/GPU usada.
+- **Resultados esperables:** en el notebook de ejemplo, incluir las salidas (figuras, métricas) ya ejecutadas, para que un lector pueda comparar sin re-ejecutar todo.
 
 
 ## Proyectos de Ingeniería Biomédica, SIIA:
