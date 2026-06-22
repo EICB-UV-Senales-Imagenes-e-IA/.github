@@ -35,7 +35,6 @@ Recomendada para proyectos de análisis de datos, señales, imágenes o aprendiz
 
 ```
 mi-proyecto/
-├── config/         # Archivos de configuración (parámetros, hiperparámetros, rutas, semillas)
 ├── data/           # Datos (ver sección "Gestión de datos")
 ├── notebooks/      # Notebooks con ejemplos funcionales y exploración
 ├── results/        # Resultados, figuras y outputs generados
@@ -45,7 +44,7 @@ mi-proyecto/
 └── README.md
 ```
 
-No es obligatoria, pero sí recomendada. Como mínimo se espera `src/` (o equivalente) y `notebooks/`.
+No es obligatoria, pero sí recomendada. Como mínimo, se espera `src/` (o equivalente) y `notebooks/`.
 
 ### 📦 Gestión de datos
 
