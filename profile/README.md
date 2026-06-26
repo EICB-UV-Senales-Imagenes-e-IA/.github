@@ -115,8 +115,6 @@ Para que el trabajo sea reproducible por otros estudiantes: fijar semillas aleat
 | **_F. Estay_** — Unsupervised Dual-Task W-Net for Intracranial Hemorrhage Detection and Segmentation in Non-Contrast CT (2025) | ICPRS 2025 | <a href="https://doi.org/10.1109/ICPRS66293.2025.11302854"><img src="https://img.shields.io/badge/10.1109%2FICPRS66293.2025.11302854-black" align="right"/></a> |
 | **_G. Guerra_** — Visual Explainability of Attention U-Net for Brain Tumor Segmentation in Multicontrast Magnetic Resonance Images (2025) | SIPAIM 2025, Pasto, Colombia | <a href="https://doi.org/10.1109/SIPAIM67325.2025.11283424"><img src="https://img.shields.io/badge/10.1109%2FSIPAIM67325.2025.11283424-black" align="right"/></a> |
 | **_C. Rodríguez_** — Performance comparison of supervised and unsupervised deep learning models for ischemic lesion detection in stroke non-contrast CT images (2025) | SIPAIM 2025, Pasto, Colombia | <a href="https://doi.org/10.1109/SIPAIM67325.2025.11283380"><img src="https://img.shields.io/badge/10.1109%2FSIPAIM67325.2025.11283380-black" align="right"/></a> |
-| **_A. A. Sanllehi_** — Modelo predictivo de fallas en monitores multiparamétricos basado en machine learning para apoyar la gestión del mantenimiento | SINVIE 2025, Arica, Chile | In press |
-
 
 ---
 
