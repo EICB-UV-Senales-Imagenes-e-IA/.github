@@ -18,7 +18,8 @@ Cada repositorio debe incluir un `README.md` principal con el contenido mínimo 
 - [ ] Abstract con un resumen del proyecto que presente la motivación, la metodología, los principales resultados, las conclusiones y las limitaciones (máx. 300 palabras).
 - [ ] Instrucciones de instalación y uso.
 - [ ] Ejemplo mínimo de ejecución (entrada → ejecución → salida esperada), o referencia al notebook correspondiente en `notebooks/`.
-- [ ] Indicación de dependencias principales y versión de Python utilizada.
+- [ ] Gráficas y figuras con los resultados principales y breves descripciones (máx. 5 figuras)
+- [ ] Indicación de las dependencias principales y de la versión de Python utilizada.
 - [ ] Información sobre licencia y uso (si aplica).
 
 > **💡 Nota**  
