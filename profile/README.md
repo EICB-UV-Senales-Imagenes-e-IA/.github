@@ -88,6 +88,7 @@ Para que el trabajo sea reproducible por otros estudiantes: fijar semillas aleat
 ### 2026-01
 | Título (con presentador) | Profesor Guía| Repositorio |
 |--------------------------|------|-----|
+|**_S. Ayala** - SmartBioMed Simulación Hemodinámica Computacional en Arterias Ideales | **D. Ortiz** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/Tesis-SmartBioMed-Simulacion-Hemodinamica-Computacional-en-Arterias-Ideales)|
 
 ### 2025-02
 | Título (con presentador) | Profesor Guía| Repositorio |
