@@ -88,6 +88,8 @@ Para que el trabajo sea reproducible por otros estudiantes: fijar semillas aleat
 ### 2026-01
 | Título (con presentador) | Profesor Guía| Repositorio |
 |--------------------------|------|-----|
+| **_A. Miranda_** - Exploración de Segmentación de la Vasculatura Intracraneal mediante Aprendizaje Auto-Supervisado Multimodal en Espacio Latente | **J. Mora** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/SIIA-2026-01-Miranda-SegVascularSSL)|
+|**_T. Sepúlveda_** - MamAI-Dens — Clasificación de Densidad Mamográfica y Explicabilidad de Calidad de Imagen | **S. Chabert** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/SIIA-2026-01-sepulveda-mamografia)| 
 | **_I. Carvajal_** - Transferencia de la robustez al nivel de ruido del DnCNN bias-free hacia imágenes de resonancia magnética de rodilla| **S. Chabert** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/SIIA-2026-08-MRI-Cnn-Dns)|
 | **_C. Salgado_** - Machine Learning causal en Resonancia Magnética Funcional |**A. Veloz**| [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/SIIA-2026-01-Salgado-rsfMRI-Causal-ML)|
 |**_S. Ayala_** - SmartBioMed Simulación Hemodinámica Computacional en Arterias Ideales | **D. Ortiz** | [Repo](https://github.com/EICB-UV-Senales-Imagenes-e-IA/Tesis-SmartBioMed-Simulacion-Hemodinamica-Computacional-en-Arterias-Ideales)|
