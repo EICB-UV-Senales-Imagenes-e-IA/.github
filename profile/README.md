@@ -13,43 +13,21 @@ Este enfoque establece un marco metodológico común para el área de Señales, 
 
 ## 🗂️ Estructura general de los repositorios
 
+> **🚨 ¡Importante!**  
+>
+> Antes de subir contenido, acuerda con tus profesores guía si el repositorio será **público** o **privado**. Esta decisión afecta quién puede ver tu trabajo, así que no la dejes para después
+
 Cada repositorio debe incluir un `README.md` principal con el contenido mínimo listado a continuación. Si el proyecto se ejecuta en Colab/Kaggle, mencionarlo explícitamente e incluir una celda inicial con `!pip install paquete==version` en el notebook para las librerías no preinstaladas.
 
 - [ ] Abstract con un resumen del proyecto que presente la motivación, la metodología, los principales resultados, las conclusiones y las limitaciones (máx. 300 palabras).
 - [ ] Instrucciones de instalación y uso.
+- [ ] Archivo de dependencias con versiones (`requirements.txt`, `environment.yml` o equivalente). **Obligatorio.**
 - [ ] Ejemplo mínimo de ejecución (entrada → ejecución → salida esperada), o referencia al notebook correspondiente en `notebooks/`.
 - [ ] Gráficas y figuras con los resultados principales y breves descripciones (máx. 5 figuras)
 - [ ] Indicación de las dependencias principales y de la versión de Python utilizada.
 - [ ] Información sobre licencia y uso (si aplica).
 
-> **💡 Nota**  
->  
-> Cada estudiante debe crear el repositorio en su propia cuenta de GitHub y enviarme el link para que yo realice un *fork* hacia la organización SmartBioMed-EICB-UV. El repositorio puede permanecer **privado** si así se requiere (por ejemplo, mientras el trabajo no esté publicado o si contiene material sensible); en ese caso, agregarme como colaborador para poder hacer el *fork*.
-
-### 🏷️ Convención de nombres de repositorio
-
-Para mantener un listado ordenado en la organización, se sugiere nombrar los repositorios siguiendo el formato:
-
-```
-SIIA-<año><semestre>-<apellido>-<tema-corto>
-```
-
-Por ejemplo: `SIIA-2025-01-Madrid-PINN-PPG-ECG` o `SIIA-2025-02-Alarcon-Airways-ML`. Usar guiones en lugar de espacios y evitar tildes o caracteres especiales.
-
-### 📋 Estructura del repositorio
-
-Además del README, el repositorio debe contener:
-
-- Código organizado en carpetas (ver estructura sugerida).
-- Archivo de dependencias con versiones (`requirements.txt`, `environment.yml` o equivalente). **Obligatorio.**
-- Al menos un notebook con un ejemplo funcional reproducible en `notebooks/`.
-- Carpeta `results/` con figuras, métricas o salidas relevantes.
-- Archivo `LICENSE`, si aplica.
-
-### 📁 Estructura sugerida de proyecto
-
-Recomendada para proyectos de análisis de datos, señales, imágenes o aprendizaje automático:
-
+Se recomienda la siguiente estructura para cada proyecto:
 ```
 mi-proyecto/
 ├── data/             # Datos (ver sección "Gestión de datos")
@@ -63,15 +41,19 @@ mi-proyecto/
 
 No es obligatoria, pero sí recomendada. Como mínimo, se espera `src/` (o equivalente) y `notebooks/`.
 
-### 🚀 Cómo unirse al área
+> **💡 Nota**  
+>  
+> Cada estudiante debe crear el repositorio en su propia cuenta de GitHub y enviarme el link para que yo realice un *fork* hacia la organización SmartBioMed-EICB-UV. El repositorio puede permanecer **privado** si así se requiere (por ejemplo, mientras el trabajo no esté publicado o si contiene material sensible); en ese caso, agregarme como colaborador para poder hacer el *fork*.
 
-Si eres estudiante y quieres incorporar tu proyecto al área SIIA:
+### 🏷️ Convención de nombres de repositorio
 
-1. Crea el repositorio en tu cuenta personal de GitHub siguiendo la convención de nombres y la estructura mínima descritas arriba.
-2. Asegúrate de que el `README.md` cumpla con el contenido mínimo (checklist).
-3. Envíame el link del repositorio al correo de contacto. Si es privado, agrégame como colaborador.
-4. Realizaré el *fork* hacia la organización SmartBioMed-EICB-UV y lo agregaré a la tabla de proyectos correspondiente.
-5. Mantén tu repositorio actualizado: la organización refleja los cambios mediante sincronización periódica del *fork*.
+Para mantener un listado ordenado en la organización, se sugiere nombrar los repositorios siguiendo el formato:
+
+```
+SIIA-<año><semestre>-<apellido>-<tema-corto>
+```
+
+Por ejemplo: `SIIA-2025-01-PEREZ-MODELOS-COMPTACIONALES` o `SIIA-2025-02-ORTIZ-SEGMENTACION-AIRWAYS-ML`. Usar guiones en lugar de espacios y evitar tildes o caracteres especiales.
 
 ### 📦 Gestión de datos
 
@@ -121,6 +103,17 @@ Para que el trabajo sea reproducible por otros estudiantes: fijar semillas aleat
 | **_F. Estay_** — Unsupervised Dual-Task W-Net for Intracranial Hemorrhage Detection and Segmentation in Non-Contrast CT (2025) | ICPRS 2025 | <a href="https://doi.org/10.1109/ICPRS66293.2025.11302854"><img src="https://img.shields.io/badge/10.1109%2FICPRS66293.2025.11302854-black" align="right"/></a> |
 | **_G. Guerra_** — Visual Explainability of Attention U-Net for Brain Tumor Segmentation in Multicontrast Magnetic Resonance Images (2025) | SIPAIM 2025, Pasto, Colombia | <a href="https://doi.org/10.1109/SIPAIM67325.2025.11283424"><img src="https://img.shields.io/badge/10.1109%2FSIPAIM67325.2025.11283424-black" align="right"/></a> |
 | **_C. Rodríguez_** — Performance comparison of supervised and unsupervised deep learning models for ischemic lesion detection in stroke non-contrast CT images (2025) | SIPAIM 2025, Pasto, Colombia | <a href="https://doi.org/10.1109/SIPAIM67325.2025.11283380"><img src="https://img.shields.io/badge/10.1109%2FSIPAIM67325.2025.11283380-black" align="right"/></a> |
+
+
+### 🚀 Cómo unirse al área
+
+Si eres estudiante y quieres incorporar tu proyecto al área SIIA:
+
+1. Crea el repositorio en tu cuenta personal de GitHub siguiendo la convención de nombres y la estructura mínima descritas arriba.
+2. Asegúrate de que el `README.md` cumpla con el contenido mínimo (checklist).
+3. Envíame el link del repositorio al correo de contacto. Si es privado, agrégame como colaborador.
+4. Realizaré el *fork* hacia la organización SmartBioMed-EICB-UV y lo agregaré a la tabla de proyectos correspondiente.
+5. Mantén tu repositorio actualizado: la organización refleja los cambios mediante sincronización periódica del *fork*.
 
 ---
 
